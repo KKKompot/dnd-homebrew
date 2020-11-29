@@ -1,0 +1,351 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AncientBloodline",
+				"abbreviation": "Brew",
+				"full": "Ancient Bloodline",
+				"authors": [
+					"Walrock Homebrew"
+				],
+				"version": "1.1",
+				"url": "http://walrock-homebrew.blogspot.com/2015/08/sacred-oath-oath-of-free-commerce.html",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "OathOfCommonMan",
+				"abbreviation": "Brew",
+				"full": "Oath of the Common Man",
+				"authors": [
+					"Walrock Homebrew"
+				],
+				"version": "1.1",
+				"url": "http://walrock-homebrew.blogspot.com/2015/08/sacred-oath-oath-of-common-man-second.html",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "OathOfLove",
+				"abbreviation": "Brew",
+				"full": "Oath of Love Remaster",
+				"authors": [
+					"Walrock Homebrew"
+				],
+				"version": "1.0",
+				"url": "http://walrock-homebrew.blogspot.com/2016/07/sacred-oath-oath-of-love-remaster.html",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753,
+		"dateLastModified": 1537874753
+	},
+	"subclass": [
+		{
+			"name": "Oath of Free Commerce",
+			"subclassFeatures": [
+				"Oath of Free Commerce|Paladin||Free Commerce|OathOfCommerce|3",
+				"Invisible Hand of the Market|Paladin||Free Commerce|OathOfCommerce|7",
+				"Market Equilibrium|Paladin||Free Commerce|OathOfCommerce|15",
+				"Game Theory|Paladin||Free Commerce|OathOfCommerce|20"
+			],
+			"source": "OathOfCommerce",
+			"shortName": "Free Commerce",
+			"spells": [
+				{
+					"prepared": {
+						"3": [
+							"identify",
+							"unseen servant"
+						],
+						"5": [
+							"hold person",
+							"see invisibility"
+						],
+						"9": [
+							"glyph of warding",
+							"tongues"
+						],
+						"13": [
+							"Leomund's secret chest",
+							"Mordenkainen's faithful hound"
+						],
+						"17": [
+							"Bigby's hand",
+							"planar binding"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"identify",
+							"unseen servant"
+						],
+						"5": [
+							"hold person",
+							"see invisibility"
+						],
+						"9": [
+							"glyph of warding",
+							"tongues"
+						],
+						"13": [
+							"Leomund's secret chest",
+							"Mordenkainen's faithful hound"
+						],
+						"17": [
+							"Bigby's hand",
+							"planar binding"
+						]
+					}
+				}
+			],
+			"className": "Paladin",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Oath of Free Commerce",
+			"source": "OathOfCommerce",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Free Commerce",
+			"subclassSource": "OathOfCommerce",
+			"level": 3,
+			"entries": [
+				"Paladins that swear the Oath of Free Commerce. also known as Thiefcatchers or Day Traders, keep safe the exchange of wealth and the hope of free trade by any means necessary. Often seen in glorious regalia and long, flowing silken capes defending the marketplaces. taverns, caravans and interests of trade hubs and port towns, these paladins are friends of honest merchants and common wage\u2014laborers alike.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of Free Commerce|Paladin||Free Commerce|OathOfCommerce|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath Spells|Paladin||Free Commerce|OathOfCommerce|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Objective Worth|Paladin||Free Commerce|OathOfCommerce|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity: Turn the Craven|Paladin||Free Commerce|OathOfCommerce|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Tenets of Free Commerce",
+			"entries": [
+				"Often codified in the most forthright of trade guilds. the tenets of Free Commerce that these paladins follow exist to ensure that the market is a safe. prosperous place for all people. and that the market acts in the service of civilization itself.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Life",
+							"entries": [
+								"The right of all living beings to remain alive, as long as they are interested in participating honestly and justly in the market, shall not be infringed upon. It is harmful to the market to kill without sufficient reason."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Liberty",
+							"entries": [
+								"Freedom to engage and compete in the marketplace, is of the utmost importance. as long as such freedom does not adversely affect its health. Freedom brings entrepreneurship. which brings equality; all are important. but freedom is the root that must be nourished."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Property",
+							"entries": [
+								"Belongings, personal and professional, are sacred, and may never be deprived from their owners without a specific business agreement. Those who forcibly separate individuals from their belongings through theft or swindling demand retribution. and the owner's restitution."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Security",
+							"entries": [
+								"Every individual has the right to secure and protect themselves and property they came by legally and with good business practice. Those who trespass on this security to deprive rightful owners of property deserve the reprisal that will come."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Ethics",
+							"entries": [
+								"Do right by those enjoying your services, and those for whom you work. Good salesmanship is acceptable, but outright dishonesty never is. Complete work that you start, or do your level best to reimburse those you work for if you cannot."
+							]
+						}
+					]
+				}
+			],
+			"source": "OathOfCommerce",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Free Commerce",
+			"subclassSource": "OathOfCommerce",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Oath Spells",
+			"entries": [
+				"You gain oath spells at the paladin levels listed.",
+				{
+					"type": "table",
+					"caption": "Oath of Free Commerce Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell identify}, {@spell unseen servant}"
+						],
+						[
+							"5th",
+							"{@spell hold person}, {@spell see invisibility}"
+						],
+						[
+							"9th",
+							"{@spell glyph of warding}, {@spell tongues}"
+						],
+						[
+							"13th",
+							"{@spell Leomund's secret chest}, {@spell Mordenkainen's faithful hound}"
+						],
+						[
+							"17th",
+							"{@spell Bigby's Hand}, {@spell planar binding}"
+						]
+					]
+				}
+			],
+			"source": "OathOfCommerce",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Free Commerce",
+			"subclassSource": "OathOfCommerce",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Channel Divinity: Objective Worth",
+			"entries": [
+				"As an action. you can make manifest your knowledge of the true worth of things. empowering your weapons or your own. calculating eye.",
+				"You may for one minute improve the quality and make of the weapon you are holding, causing it to become a magical weapon that adds half of your Charisma modifier (rounded up) to attack and damage rolls made with it (with a minimum bonus of +1) in addition to the weapons other properties.",
+				"Alternatively. you may for an hour inherently know the exact monetary value of anything you see and gain advantage on History and Insight checks to know the background and nature of objects.",
+				"You can end this effect without an action on your turn. If you are no longer holding or carrying a weapon empowered by this ability. or if you fall unconscious. this effect ends."
+			],
+			"source": "OathOfCommerce",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Free Commerce",
+			"subclassSource": "OathOfCommerce",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Channel Divinity: Turn the Craven",
+			"entries": [
+				"As an action. you can raise your voice and demand that any thieves and skulkers in the area reveal themselves. Each creature that is invisible. at\u2014tempting to hide. or otherwise intentionally difficult to see within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw. it is turned for 1 minute or until it takes damage.",
+				"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+			],
+			"source": "OathOfCommerce",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Free Commerce",
+			"subclassSource": "OathOfCommerce",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Invisible Hand of the Market",
+			"source": "OathOfCommerce",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Free Commerce",
+			"subclassSource": "OathOfCommerce",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, when an enemy moves within 10 feet of you, you may use a reaction to grapple them with an invisible hand of force at any point during the move. The enemy makes a Charisma saving throw against your spell save DC, and are unable to use any movement speeds they possess until the beginning of their next turn, if they fail. A creature that fails this save may also be pulled up to 10 feet towards you, if you choose.",
+				"At 18th level, the range of this ability increases to 30 feet, but the distance of its pull remains the same.",
+				"In addition, you gain knowledge of the {@spell mage hand} cantrip. If you already know this cantrip, you can instead gain another cantrip out of {@spell message}, {@spell prestidigitation}, or {@spell thaumaturgy}. When you cast mage hand, you may choose to make the spectral hand invisible."
+			]
+		},
+		{
+			"name": "Market Equilibrium",
+			"source": "OathOfCommerce",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Free Commerce",
+			"subclassSource": "OathOfCommerce",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Once you reach 15th level. when you are hit by an attack and receive damage, you may use a reaction to take half the triggering damage and cause the attacking creature to take the same amount of damage. Once you use this ability, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Game Theory",
+			"source": "OathOfCommerce",
+			"page": 82,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Free Commerce",
+			"subclassSource": "OathOfCommerce",
+			"level": 20,
+			"header": 2,
+			"entries": [
+				"At 20th level you can, as an action, gain perfect insight into the motivation and potential rational actions of all economic and physical players in your immediate situation. Your eyes begin to glow slightly with a dim light and the rustling of your armor sounds strangely like the clinking of coins, but otherwise you are not perceptibly changed.",
+				"For 1 minute, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Truesight out to 120 feet.",
+						"Attacks against you are made with disadvantage.",
+						"When you take the Attack action, you may choose to either make all attacks this turn with advantage, or to add one additional attack to the total number of attacks the Attack action allows you to make this turn."
+					]
+				},
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		}
+	]
+}
